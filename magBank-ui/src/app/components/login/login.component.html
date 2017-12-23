@@ -1,0 +1,13 @@
+<div class="container">
+  
+        <form class="form-group" (submit)="onLoginSubmit()">
+          <h2>Please sign in</h2>
+          <label for="inputEmail">Username</label>
+          <input type="text" class="form-control" placeholder="Username" [(ngModel)]="username" name="username" required autofocus>
+          <label for="inputPassword">Password</label>
+          <input type="password" id="inputPassword" class="form-control" [(ngModel)]="password" name="password" placeholder="Password" required>
+          <br>
+          <button class="btn btn-primary" type="submit">Sign in</button>
+        </form>
+  
+      </div>

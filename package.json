@@ -1,0 +1,26 @@
+{
+  "name": "magbank",
+  "version": "1.0.0",
+  "description": "MEAN stack bank app",
+  "main": "bank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bank "
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "mongodb": "^2.2.33"
+  },
+  "author": "MAG",
+  "license": "ISC",
+  "devDependencies": {
+   
+  }
+}

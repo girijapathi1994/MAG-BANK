@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+  <h1>MAG BANK</h1>
+  <p class="lead">The one and only one bank where your thoughts are stored and returned with interest. </p>
+  <div *ngIf="!authService.loggedIn()">
+    <a class="btn btn-info" [routerLink]="['/register']">Register</a> <a class="btn btn-success" [routerLink]="['/login']">Login</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h3>Magnificent</h3>
+    <p>You finds it is extremely beautiful, talented, impressive and how many synonyms applicable for M </p>
+  </div>
+  <div class="col-md-4">
+    <h3>Attractive</h3>
+    <p>To describe A ....simply clone of Magnet where each and every one becomes iron.</p>
+  </div>
+    
+  <div class="col-md-4">
+    <h3>Gullible</h3>
+    <p>One of the waste word exists, which always thinks about M, A and always think only about M, A. </p>
+  </div>
+</div>
